@@ -12,10 +12,10 @@
     
     <item>
       <title>Godot engine 3.1 theme tweaks</title>
-      <link>https://xupisco.github.io/posts/godot-31-theme-tweaks/</link>
+      <link>https://xupisco.github.io/post/godot-31-theme-tweaks/</link>
       <pubDate>Wed, 13 Feb 2019 18:29:55 -0200</pubDate>
       
-      <guid>https://xupisco.github.io/posts/godot-31-theme-tweaks/</guid>
+      <guid>https://xupisco.github.io/post/godot-31-theme-tweaks/</guid>
       <description>Então, como já devem ter percebido eu não curto nada &amp;ldquo;default&amp;rdquo; e acabo sempre fazendo alguma customização dos apps que uso, seja de interface, cores, fonts, etc&amp;hellip; Muito difícil me agradar &amp;ldquo;out-of-the-box&amp;rdquo;.
 Por isso estou compartilhando abaixo o que fiz de alterações no Godot Engine (versão 3.1) para ficar lindão&amp;hellip; XD - Veja só!
  Você sabia que pode clicar para ver maior?! Oo
@@ -24,10 +24,10 @@ Da hora, o que vc fez? Segue abaixo o que foi alterado&amp;hellip; na verdade, n
     
     <item>
       <title>Minhas extensões e configurações do VSCode</title>
-      <link>https://xupisco.github.io/posts/minhas-extensoes-e-configuracoes-do-vscode/</link>
+      <link>https://xupisco.github.io/post/minhas-extensoes-e-configuracoes-do-vscode/</link>
       <pubDate>Tue, 12 Feb 2019 19:29:30 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/minhas-extensoes-e-configuracoes-do-vscode/</guid>
+      <guid>https://xupisco.github.io/post/minhas-extensoes-e-configuracoes-do-vscode/</guid>
       <description>Bom, acho que todo mundo já conhece o VSCode, certo? Mas em resumo, é um editor de texto &amp;ldquo;open-source&amp;rdquo; criado pelo Microsoft e hoje em dia é o queridinho dos developers.
  Fun fact: O VSCode é atualmente o 11º projeto com mais &amp;ldquo;stars&amp;rdquo; no GitHub.
  Confesso que gosto muito do editor que além de rápido é 100% customizável (temas e extensions), o que quero contar aqui é quais são as minhas extensões atuais, tema e configurações (settings), sem mais delongas:</description>
@@ -35,10 +35,10 @@ Da hora, o que vc fez? Segue abaixo o que foi alterado&amp;hellip; na verdade, n
     
     <item>
       <title>Reddit Lazy Link Finder</title>
-      <link>https://xupisco.github.io/posts/reddit-lazy-link-finder/</link>
+      <link>https://xupisco.github.io/post/reddit-lazy-link-finder/</link>
       <pubDate>Mon, 14 May 2018 14:23:27 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/reddit-lazy-link-finder/</guid>
+      <guid>https://xupisco.github.io/post/reddit-lazy-link-finder/</guid>
       <description>O reddit é muito bom&amp;hellip; já sabemos disso (se ainda não conhecia, desculpe por acabar com o seu dia). Acontece que normalmente existem muitos comentários dentro de um thread, com conteúdos realmente preciosos.
  &amp;ldquo;O melhor sempre está nos comentários.&amp;rdquo; - Anonymous
  Acontece que como programador (e preguiçoso) as vezes não quero ficar lendo tudo, por isso nasceu o Reddit Lazy Link Finder, legal&amp;hellip; mas o que ele faz?</description>
@@ -46,10 +46,10 @@ Da hora, o que vc fez? Segue abaixo o que foi alterado&amp;hellip; na verdade, n
     
     <item>
       <title>Como compartilhar sua Home do Android</title>
-      <link>https://xupisco.github.io/posts/como-compartilhar-sua-home-do-android/</link>
+      <link>https://xupisco.github.io/post/como-compartilhar-sua-home-do-android/</link>
       <pubDate>Tue, 04 Jul 2017 10:59:06 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/como-compartilhar-sua-home-do-android/</guid>
+      <guid>https://xupisco.github.io/post/como-compartilhar-sua-home-do-android/</guid>
       <description>Modificar o Android é uma das funcionalidades preferidas de que adota o robozinho ao invés da maçã já que ele possibilita customizar praticamente tudo, tornando o seu celular realmente único.
 Outra coisa comum é querer mostrar para os outros, o que depois sempre vem as perguntas do tipo:
  Qual aquele widget? Me passa o wallpaper? Quais ícones vc está usando?  Entre outras, e por isso nasceu o #homescreens, uma maneira rápida e bonita de compartilhar suas telas e criações.</description>
@@ -77,10 +77,10 @@ Vou dividir este tutorial em algumas partes, tentando ser o mais didático poss�
     
     <item>
       <title>Flappybird Clone usando CoronaSDK</title>
-      <link>https://xupisco.github.io/posts/flappybird-clone-usando-coronasdk/</link>
+      <link>https://xupisco.github.io/post/flappybird-clone-usando-coronasdk/</link>
       <pubDate>Mon, 26 Jun 2017 12:28:31 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/flappybird-clone-usando-coronasdk/</guid>
+      <guid>https://xupisco.github.io/post/flappybird-clone-usando-coronasdk/</guid>
       <description>Olás pessoas que não conheço, como estão?
 Vou começar uma série de tutoriais sobre como criar um clone de FlappyBird usando o CoronaSDK, que é em Lua.
 Update: Já estão disponíveis os 2 primeiros posts&amp;hellip; comece agora!
@@ -89,20 +89,20 @@ Ainda estou preparando todo o material necessário, mas vamos começar do zero (
     
     <item>
       <title>Usando o VS Code com Hugo</title>
-      <link>https://xupisco.github.io/posts/usando-o-vscode/</link>
+      <link>https://xupisco.github.io/post/usando-o-vs-code-com-hugo/</link>
       <pubDate>Fri, 23 Jun 2017 13:49:27 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/usando-o-vscode/</guid>
+      <guid>https://xupisco.github.io/post/usando-o-vs-code-com-hugo/</guid>
       <description>O Hugo é um excelente gerador de sites estáticos escrito em Go, com uma documentação bem completa e vários temas disponíveis (este blog utiliza o tema &amp;ldquo;cocoa&amp;quot;, com alguma customização feita por mim).
 Não quero entrar muito em detalhes sobre como instalar e configurar o Hugo, isso pode ser encontrado no &amp;ldquo;Getting started&amp;rdquo; do site deles, o objetivo aqui é apenas falar sobre como deixar o VS Code mais esperto para ele.</description>
     </item>
     
     <item>
       <title>Python - Remover valores duplicados de uma lista mantendo a ordem</title>
-      <link>https://xupisco.github.io/posts/como-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem-em-python/</link>
+      <link>https://xupisco.github.io/post/python-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem/</link>
       <pubDate>Fri, 23 Jun 2017 11:48:24 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/como-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem-em-python/</guid>
+      <guid>https://xupisco.github.io/post/python-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem/</guid>
       <description>No python, vc pode usar o set() para remover valores duplicados de uma lista, mas ele troca a ordem dos valores dentro dela, para mantê-los, é simples, veja o exemplo abaixo:
 lista = [&amp;#39;a&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;] sorted(set(lista), key=lambda x: lista.index(x)) #magic #output &amp;gt; [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;c&amp;#39;] Simples assim&amp;hellip;
 []&amp;lsquo;s</description>
@@ -110,10 +110,10 @@ lista = [&amp;#39;a&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39
     
     <item>
       <title>Markdown Cheatsheet</title>
-      <link>https://xupisco.github.io/posts/markdown-cheatsheet/</link>
+      <link>https://xupisco.github.io/post/markdown-cheatsheet/</link>
       <pubDate>Wed, 21 Jun 2017 11:02:43 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/markdown-cheatsheet/</guid>
+      <guid>https://xupisco.github.io/post/markdown-cheatsheet/</guid>
       <description>Userfull commands Images
 Links
 Text to display

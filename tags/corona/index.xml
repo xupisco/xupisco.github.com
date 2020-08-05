@@ -32,10 +32,10 @@ Vou dividir este tutorial em algumas partes, tentando ser o mais didático poss�
     
     <item>
       <title>Flappybird Clone usando CoronaSDK</title>
-      <link>https://xupisco.github.io/posts/flappybird-clone-usando-coronasdk/</link>
+      <link>https://xupisco.github.io/post/flappybird-clone-usando-coronasdk/</link>
       <pubDate>Mon, 26 Jun 2017 12:28:31 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/flappybird-clone-usando-coronasdk/</guid>
+      <guid>https://xupisco.github.io/post/flappybird-clone-usando-coronasdk/</guid>
       <description>Olás pessoas que não conheço, como estão?
 Vou começar uma série de tutoriais sobre como criar um clone de FlappyBird usando o CoronaSDK, que é em Lua.
 Update: Já estão disponíveis os 2 primeiros posts&amp;hellip; comece agora!

@@ -12,10 +12,10 @@
     
     <item>
       <title>Python - Remover valores duplicados de uma lista mantendo a ordem</title>
-      <link>https://xupisco.github.io/posts/como-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem-em-python/</link>
+      <link>https://xupisco.github.io/post/python-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem/</link>
       <pubDate>Fri, 23 Jun 2017 11:48:24 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/posts/como-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem-em-python/</guid>
+      <guid>https://xupisco.github.io/post/python-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem/</guid>
       <description>No python, vc pode usar o set() para remover valores duplicados de uma lista, mas ele troca a ordem dos valores dentro dela, para mantê-los, é simples, veja o exemplo abaixo:
 lista = [&amp;#39;a&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;] sorted(set(lista), key=lambda x: lista.index(x)) #magic #output &amp;gt; [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;c&amp;#39;] Simples assim&amp;hellip;
 []&amp;lsquo;s</description>

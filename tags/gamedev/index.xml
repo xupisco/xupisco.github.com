@@ -12,10 +12,10 @@
     
     <item>
       <title>Godot engine 3.1 theme tweaks</title>
-      <link>https://xupisco.github.io/posts/godot-31-theme-tweaks/</link>
+      <link>https://xupisco.github.io/post/godot-31-theme-tweaks/</link>
       <pubDate>Wed, 13 Feb 2019 18:29:55 -0200</pubDate>
       
-      <guid>https://xupisco.github.io/posts/godot-31-theme-tweaks/</guid>
+      <guid>https://xupisco.github.io/post/godot-31-theme-tweaks/</guid>
       <description>Então, como já devem ter percebido eu não curto nada &amp;ldquo;default&amp;rdquo; e acabo sempre fazendo alguma customização dos apps que uso, seja de interface, cores, fonts, etc&amp;hellip; Muito difícil me agradar &amp;ldquo;out-of-the-box&amp;rdquo;.
 Por isso estou compartilhando abaixo o que fiz de alterações no Godot Engine (versão 3.1) para ficar lindão&amp;hellip; XD - Veja só!
  Você sabia que pode clicar para ver maior?! Oo
