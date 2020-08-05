@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="xupisco">
+<meta name="description" content="Criando um clone de FlappyBird no CoronaSDK">
+
+
+<meta property="og:title" content="01 - Hello World" />
+<meta property="og:description" content="Criando um clone de FlappyBird no CoronaSDK" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://xupisco.github.io/flappybird-tutorial/01_hello-world/" />
+
+	<meta property="og:image" content="http://xupisco.net/img/og/flappy-bird-cover.jpg" />
+
+
+
+<meta property="og:updated_time" content="2017-06-27 10:17:56 -0300 -03"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="article:author" content="https://www.facebook.com/xupisco" />
+
+<meta property="article:publisher" content="https://www.facebook.com/xupisco" />
+
+<meta property="article:published_time" content="2017-06-27 10:17:56 -0300 -03" />
+
+<meta property="article:modified_time" content="2017-06-27 10:17:56 -0300 -03" />
+<meta property="article:section" content="flappybird-tutorial" />
+
+	<meta property="article:tag" content="tutorial" />
+
+	<meta property="article:tag" content="corona" />
+
+
+
+<meta property="fb:admins" content="830831574" />
+
+
+<meta itemprop="name" content="01 - Hello World">
+<meta itemprop="description" content="Criando um clone de FlappyBird no CoronaSDK">
+
+
+
+	<meta itemprop="image" content="http://xupisco.net/img/og/flappy-bird-cover.jpg">
+
+
+
+<meta itemprop="keywords" content="chrome,corona,extension,gamedev,godot,lua,python,tips,tutorial,vscode," />
+
+
+<meta itemprop="wordCount" content="401">
+
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:image:src" content="http://xupisco.net/img/og/flappy-bird-cover.jpg"/>
+
+
+
+<meta name="twitter:title" content="01 - Hello World"/>
+<meta name="twitter:description" content="Criando um clone de FlappyBird no CoronaSDK"/>
+<meta name="twitter:site" content="@xupisco"/>
+<meta name="twitter:domain" content="xupisco.net"/>
+
+	
+	
+
+
+
+
+<title>
+
+
+     01 - Hello World 
+
+</title>
+<link rel="canonical" href="https://xupisco.github.io/flappybird-tutorial/01_hello-world/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lua.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="/css/reset.css?t=2020-08-05%2014%3a51%3a19.6005898%20-0300%20-03%20m%3d%2b0.114761201">
+    <link rel="stylesheet" href="/css/pygments.css?t=2020-08-05%2014%3a51%3a19.6005898%20-0300%20-03%20m%3d%2b0.114761201">
+    <link rel="stylesheet" href="/css/main.css?t=2020-08-05%2014%3a51%3a19.6005898%20-0300%20-03%20m%3d%2b0.114761201">
+    
+        <link rel="stylesheet" href="/css/customize.css?t=2020-08-05%2014%3a51%3a19.6005898%20-0300%20-03%20m%3d%2b0.114761201">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="//img/zen.png"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="pt-br">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+                <a href="/"><img class="avatar" src="//img/zen.png" srcset="https://xupisco.github.io/img/zen.png 1x"></a>
+            
+            <a href="/"><div class="name">xupisco</div></a>
+            
+              <h3 class="self-intro">// insert clever quote here</h3>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://xupisco.github.io/"><span>Blog</span></a>&nbsp;&nbsp;&nbsp;| </li>
+                    
+                        <li class="nav-flappybird-tutorial"><a href="https://xupisco.github.io/flappybird-tutorial/"><span>FlappyBird Tutorial</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/xupisco" target="_blank" rel="noopener"><img class="icon" src="/img/github.svg" alt="github" /></a>
+        
+
+        
+            <a href="//twitter.com/xupisco" target="_blank" rel="noopener"><img class="icon" src="/img/twitter.svg" alt="twitter" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:dev@xupisco.net"><img class="icon" src="/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="https://xupisco.github.io/index.xml"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <span class="tags">
+                
+                    <a href="/tags/tutorial">#tutorial</a>
+                
+                    <a href="/tags/corona">#corona</a>
+                
+                </span>
+                <div class="title-container">
+                    <div class="page-heading">
+
+    01 - Hello World
+
+</div>
+
+                    <div class="initials"><a href="https://xupisco.github.io"></a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Tue Jun 27 2017 10:17:56 -03'>27/06/2017</div>
+                    
+                    
+		            <div class="reading-time"><div class="middot"></div>Uns 2 minutos de leitura</div>
+                    
+                </div>
+            </div>
+                <div class="markdown">
+                <p>Olás pessoas, prontos para começarem no mundo da programação e desenvolvimento de jogos? Ainda não? Então pode ir assistir qualquer porcaria no <a href="http://www.youtube.com">Youtube</a>.</p>
+<p>Vou dividir este tutorial em algumas partes, tentando ser o mais didático possível, além de explicar o porque dos caminhos escolhidos foi seguido. A ideia não é você &ldquo;copiar&rdquo; o código, mas sim entender como tudo foi feito, só assim poderá usar este aprendizado nos seus próprios projetos.</p>
+<p>Mas eu só quero o código! Blz, pode baixar <a href="https://github.com/xupisco/CoronaSDK-FlappyBird">aqui</a>&hellip; tchau!</p>
+<h2 id="pronto-hello-world-">Pronto? Hello World</h2>
+<p>Vamos usar o engine <strong><a href="http://coronalabs.com">CoronaSDK</a></strong> neste game. Ele é grátis, com uma documentação bem escrita e estruturada. Nele usamos a linguagem <strong>Lua</strong>, que é fácil de aprender e gostosa de programar. Perfeita para iniciantes.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lua" data-lang="lua">print(<span style="color:#e6db74">&#34;Hello World&#34;</span>)
+</code></pre></div><p>Algumas outras vantagens do <strong>CoronaSDK</strong>:</p>
+<ul>
+<li>É gratuito*</li>
+<li>É em Lua (já expliquei)</li>
+<li>Ótima <a href="https://coronalabs.com/learn/">documentação</a></li>
+<li>Muitos plugins (<a href="https://marketplace.coronalabs.com/">marketplace</a>)</li>
+<li>Multi-plataforma</li>
+<li>Live Reload</li>
+<li>Etc&hellip;</li>
+</ul>
+<p>Conheça <a href="https://coronalabs.com/product/">todos os recursos</a> no site deles.</p>
+<p><strong>01: Baixando e instalando o CoronaSDK</strong><br>
+Sem muita enrolação, siga os passos abaixo:</p>
+<ol>
+<li>Faça <a href="https://developer.coronalabs.com/user/login">seu cadastro</a> no site da Corona Labs</li>
+<li>Faça o login</li>
+<li>Baixe o <a href="https://developer.coronalabs.com/downloads/coronasdk">CoronaSDK</a> para a sua plataforma</li>
+<li>Instale (padrão wizard, ok, next, next, etc&hellip;)</li>
+</ol>
+<p>Pronto, o SDK e o Simulador estão instalados, bora para a parte mais legal agora.</p>
+<p><strong>02: Criando o projeto</strong><br>
+Tem duas maneiras de começar, mas como sou bonzinho, já montei um esqueleto que vai além de agilizar setup do projeto, irá também ajudar na sua organização.</p>
+<blockquote>
+<p>Nada impede vc de abrir o simulador e selecionar &ldquo;New Project&rdquo;, abaixo vou explicar porque usar este esqueleto.</p>
+</blockquote>
+<p>Clone ou baixe o esqueleto do projeto no Github, <a href="https://github.com/xupisco/CoronaSDK-LowresGameTemplate">clicando aqui</a> em uma pasta nova.</p>
+<blockquote>
+<p>Obs: Como uso windows, alguns atalhos ou outras coisas que encontrar aqui podem ser diferentes do OS que vc usa, mas no geral as coisas funcionam iguais.</p>
+</blockquote>
+<p>Feito isso, vc terá uma pasta nova com a seguinte estrutura: (comando: <code>$tree</code>)</p>
+<pre><code>Project_Template:
+├── assets
+│      ├── music
+│      ├── sfx
+│      └── sprites
+├── classes
+├── LaunchScreen.storyboardc
+├── scenes
+└── _icons
+</code></pre><p>No Simulador, clique em &ldquo;Open Project&rdquo; e selecione o arquivo <code>main.lua</code>, na raiz. Se tudo der certo (até agora não tem como estar errado) vai abrir uma janela com o fundo preto, na proporção de um celular.</p>
+<p>Pronto, esse é o nosso jogo&hellip; rá!</p>
+<p>Brincadeira, no <a href="https://xupisco.github.io/flappybird-tutorial/02_understanding-the-skeleton/">próximo post</a> vou explicar pra que as pastas e os arquivos desse esqueleto servem. Vamos baixar os assets (arquivos) do jogo e fazer o background aparecer na tela.</p>
+<p>Até!</p>
+
+                <br>
+		        <p><a href="/flappybird-tutorial">&lt;&lt; Voltar ao índice</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'xupisco';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+            </div>
+            <br />
+            <div class="related">
+                
+
+<hr />
+<h3>Outros</h3>
+<ul>
+	
+	<li><a href="/posts/flappybird-clone-usando-coronasdk/">Flappybird Clone usando CoronaSDK</a>                 <span class="tags">
+        
+            <a href="/tags/corona">#corona</a>
+        
+            <a href="/tags/lua">#lua</a>
+        
+            <a href="/tags/tutorial">#tutorial</a>
+        
+        </span></li>
+	
+</ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8395201-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+</body>
+</html>
+

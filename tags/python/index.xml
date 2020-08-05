@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on @xupisco - Let&#39;s build stuff</title>
+    <link>https://xupisco.github.io/tags/python/</link>
+    <description>Recent content in python on @xupisco - Let&#39;s build stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Jun 2017 11:48:24 -0300</lastBuildDate>
+    
+	<atom:link href="https://xupisco.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python - Remover valores duplicados de uma lista mantendo a ordem</title>
+      <link>https://xupisco.github.io/posts/como-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem-em-python/</link>
+      <pubDate>Fri, 23 Jun 2017 11:48:24 -0300</pubDate>
+      
+      <guid>https://xupisco.github.io/posts/como-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem-em-python/</guid>
+      <description>No python, vc pode usar o set() para remover valores duplicados de uma lista, mas ele troca a ordem dos valores dentro dela, para mantê-los, é simples, veja o exemplo abaixo:
+lista = [&amp;#39;a&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;] sorted(set(lista), key=lambda x: lista.index(x)) #magic #output &amp;gt; [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;c&amp;#39;] Simples assim&amp;hellip;
+[]&amp;lsquo;s</description>
+    </item>
+    
+  </channel>
+</rss>

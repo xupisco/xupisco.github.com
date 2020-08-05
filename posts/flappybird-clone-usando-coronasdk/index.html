@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="xupisco">
+<meta name="description" content="Olás pessoas que não conheço, como estão?
+Vou começar uma série de tutoriais sobre como criar um clone de FlappyBird usando o CoronaSDK, que é em Lua.
+Update: Já estão disponíveis os 2 primeiros posts&hellip; comece agora!
+Ainda estou preparando todo o material necessário, mas vamos começar do zero (mesmo) até ter o jogo completo rodando no seu celular. Por enquanto, já coloquei o source-code da versão final do projeto no github, fique a vontade se quiser baixar e começar a brincar antes.">
+
+
+<meta property="og:title" content="Flappybird Clone usando CoronaSDK" />
+<meta property="og:description" content="Olás pessoas que não conheço, como estão?
+Vou começar uma série de tutoriais sobre como criar um clone de FlappyBird usando o CoronaSDK, que é em Lua.
+Update: Já estão disponíveis os 2 primeiros posts&hellip; comece agora!
+Ainda estou preparando todo o material necessário, mas vamos começar do zero (mesmo) até ter o jogo completo rodando no seu celular. Por enquanto, já coloquei o source-code da versão final do projeto no github, fique a vontade se quiser baixar e começar a brincar antes." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://xupisco.github.io/posts/flappybird-clone-usando-coronasdk/" />
+
+	<meta property="og:image" content="https://xupisco.net/img/og/flappy-bird-cover.jpg" />
+
+
+
+<meta property="og:updated_time" content="2017-06-26 12:28:31 -0300 -03"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="article:author" content="https://www.facebook.com/xupisco" />
+
+<meta property="article:publisher" content="https://www.facebook.com/xupisco" />
+
+<meta property="article:published_time" content="2017-06-26 12:28:31 -0300 -03" />
+
+<meta property="article:modified_time" content="2017-06-26 12:28:31 -0300 -03" />
+<meta property="article:section" content="posts" />
+
+	<meta property="article:tag" content="corona" />
+
+	<meta property="article:tag" content="lua" />
+
+	<meta property="article:tag" content="tutorial" />
+
+
+
+<meta property="fb:admins" content="830831574" />
+
+
+<meta itemprop="name" content="Flappybird Clone usando CoronaSDK">
+<meta itemprop="description" content="Olás pessoas que não conheço, como estão?
+Vou começar uma série de tutoriais sobre como criar um clone de FlappyBird usando o CoronaSDK, que é em Lua.
+Update: Já estão disponíveis os 2 primeiros posts&hellip; comece agora!
+Ainda estou preparando todo o material necessário, mas vamos começar do zero (mesmo) até ter o jogo completo rodando no seu celular. Por enquanto, já coloquei o source-code da versão final do projeto no github, fique a vontade se quiser baixar e começar a brincar antes.">
+
+
+
+	<meta itemprop="image" content="https://xupisco.net/img/og/flappy-bird-cover.jpg">
+
+
+
+<meta itemprop="keywords" content="chrome,corona,extension,gamedev,godot,lua,python,tips,tutorial,vscode," />
+
+
+<meta itemprop="wordCount" content="212">
+
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:image:src" content="https://xupisco.net/img/og/flappy-bird-cover.jpg"/>
+
+
+
+<meta name="twitter:title" content="Flappybird Clone usando CoronaSDK"/>
+<meta name="twitter:description" content="Olás pessoas que não conheço, como estão?
+Vou começar uma série de tutoriais sobre como criar um clone de FlappyBird usando o CoronaSDK, que é em Lua.
+Update: Já estão disponíveis os 2 primeiros posts&hellip; comece agora!
+Ainda estou preparando todo o material necessário, mas vamos começar do zero (mesmo) até ter o jogo completo rodando no seu celular. Por enquanto, já coloquei o source-code da versão final do projeto no github, fique a vontade se quiser baixar e começar a brincar antes."/>
+<meta name="twitter:site" content="@xupisco"/>
+<meta name="twitter:domain" content="xupisco.net"/>
+
+	
+	
+
+
+
+
+<title>
+
+
+     Flappybird Clone usando CoronaSDK 
+
+</title>
+<link rel="canonical" href="https://xupisco.github.io/posts/flappybird-clone-usando-coronasdk/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lua.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="/css/reset.css?t=2020-08-05%2014%3a51%3a19.6004477%20-0300%20-03%20m%3d%2b0.114619101">
+    <link rel="stylesheet" href="/css/pygments.css?t=2020-08-05%2014%3a51%3a19.6004477%20-0300%20-03%20m%3d%2b0.114619101">
+    <link rel="stylesheet" href="/css/main.css?t=2020-08-05%2014%3a51%3a19.6004477%20-0300%20-03%20m%3d%2b0.114619101">
+    
+        <link rel="stylesheet" href="/css/customize.css?t=2020-08-05%2014%3a51%3a19.6004477%20-0300%20-03%20m%3d%2b0.114619101">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="//img/zen.png"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="pt-br">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+                <a href="/"><img class="avatar" src="//img/zen.png" srcset="https://xupisco.github.io/img/zen.png 1x"></a>
+            
+            <a href="/"><div class="name">xupisco</div></a>
+            
+              <h3 class="self-intro">// insert clever quote here</h3>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://xupisco.github.io/"><span>Blog</span></a>&nbsp;&nbsp;&nbsp;| </li>
+                    
+                        <li class="nav-flappybird-tutorial"><a href="https://xupisco.github.io/flappybird-tutorial/"><span>FlappyBird Tutorial</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/xupisco" target="_blank" rel="noopener"><img class="icon" src="/img/github.svg" alt="github" /></a>
+        
+
+        
+            <a href="//twitter.com/xupisco" target="_blank" rel="noopener"><img class="icon" src="/img/twitter.svg" alt="twitter" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:dev@xupisco.net"><img class="icon" src="/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="https://xupisco.github.io/index.xml"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    Flappybird Clone usando CoronaSDK
+
+</div>
+
+            <div class="markdown">
+                <p>Olás pessoas que não conheço, como estão?<br>
+Vou começar uma série de tutoriais sobre como criar um clone de FlappyBird usando o <a href="http://coronalabs.com">CoronaSDK</a>, que é em Lua.</p>
+<p><strong>Update:</strong> Já estão disponíveis os <a href="/flappybird-tutorial/">2 primeiros posts</a>&hellip; comece agora!</p>
+<p><img src="../../static/img/flappy_bird-animated.gif" alt="FlappyBird"></p>
+<p>Ainda estou preparando todo o material necessário, mas vamos começar do zero (mesmo) até ter o jogo completo rodando no seu celular. Por enquanto, já coloquei o source-code da versão final do projeto no github, fique a vontade se quiser baixar e começar a brincar antes.</p>
+<p>Clone agora o <strong><a href="https://github.com/xupisco/CoronaSDK-FlappyBird">Full flappy-bird source code</a></strong> em Lua.</p>
+<p><strong>Tópicos abordados</strong><br>
+Segue um &ldquo;índice&rdquo; sobre o que vamos passar / aprender neste tutorial:</p>
+<ul>
+<li>Baixando e instalando o CoronaSDK</li>
+<li>Criando o projeto</li>
+<li><a href="https://github.com/xupisco/CoronaSDK-FlappyBird/raw/master/FlappyBird%20Assets.zip">Baixando os &ldquo;assets&rdquo; do jogo</a></li>
+<li>Configurando nosso game:
+<ul>
+<li>Resolução</li>
+<li>Ícones</li>
+</ul>
+</li>
+<li>Entendendo o <code>composer</code></li>
+<li>Criando nossas cenas (telas):
+<ul>
+<li>Principal</li>
+<li>Game</li>
+<li>GameOver</li>
+<li>Highscore</li>
+</ul>
+</li>
+<li>Breve introdução a OOP em Lua</li>
+<li>Criando nossos atores (objetos)</li>
+<li>Colocando tudo junto (o game em si)</li>
+<li>Considerações finais</li>
+</ul>
+<p>Para os apressados, podem baixar o <a href="https://developer.coronalabs.com/downloads/daily-builds#tabs-2">CoronaSDK</a> (tem que criar um cadastro) e começar a dar uma lida nos <a href="https://docs.coronalabs.com/guide/index.html">guias</a> ou na <a href="https://docs.coronalabs.com/api/index.html">documentação</a>, além de rodar o jogo completo que pode ser baixado no github pelo link acima!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lua" data-lang="lua">display.setDefault(<span style="color:#e6db74">&#39;magTextureFilter&#39;</span>, <span style="color:#e6db74">&#39;nearest&#39;</span>)
+display.setDefault(<span style="color:#e6db74">&#39;minTextureFilter&#39;</span>, <span style="color:#e6db74">&#39;nearest&#39;</span>)
+
+<span style="color:#66d9ef">local</span> composer <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#39;composer&#39;</span>)
+
+composer.recycleOnSceneChange <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+composer.effectList.fade.from.transition <span style="color:#f92672">=</span> easing.outQuad
+composer.effectList.fade.to.transition <span style="color:#f92672">=</span> easing.outQuad
+
+composer.gotoScene(<span style="color:#e6db74">&#39;scenes.menu&#39;</span>)
+</code></pre></div><p>Aguardem&hellip;<br>
+[]&lsquo;s</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8395201-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+</body>
+</html>
+

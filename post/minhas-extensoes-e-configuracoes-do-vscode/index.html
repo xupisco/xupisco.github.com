@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="xupisco">
+<meta name="description" content="Uma geral sobre as extensões, tema e configurações que uso atualmente no VSCode.">
+
+
+<meta property="og:title" content="Minhas extensões e configurações do VSCode" />
+<meta property="og:description" content="Uma geral sobre as extensões, tema e configurações que uso atualmente no VSCode." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://xupisco.net/post/minhas-extensoes-e-configuracoes-do-vscode/" />
+
+	<meta property="og:image" content="https://xupisco.net/img/zen.png" />
+
+
+
+<meta property="og:updated_time" content="2019-02-12 19:29:30 -0300 -0300"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="article:author" content="https://www.facebook.com/xupisco" />
+
+<meta property="article:publisher" content="https://www.facebook.com/xupisco" />
+
+<meta property="article:published_time" content="2019-02-12 19:29:30 -0300 -0300" />
+
+<meta property="article:modified_time" content="2019-02-12 19:29:30 -0300 -0300" />
+<meta property="article:section" content="post" />
+
+	<meta property="article:tag" content="vscode" />
+
+	<meta property="article:tag" content="tips" />
+
+
+
+<meta property="fb:admins" content="830831574" />
+
+
+<meta itemprop="name" content="Minhas extensões e configurações do VSCode">
+<meta itemprop="description" content="Uma geral sobre as extensões, tema e configurações que uso atualmente no VSCode.">
+
+
+
+	<meta itemprop="image" content="https://xupisco.net/img/zen.png">
+
+
+
+<meta itemprop="keywords" content="chrome,corona,extension,gamedev,godot,lua,python,tips,tutorial,vscode," />
+
+
+<meta itemprop="wordCount" content="1139">
+
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:image:src" content="https://xupisco.net/img/zen.png"/>
+
+
+
+<meta name="twitter:title" content="Minhas extensões e configurações do VSCode"/>
+<meta name="twitter:description" content="Uma geral sobre as extensões, tema e configurações que uso atualmente no VSCode."/>
+<meta name="twitter:site" content="@xupisco"/>
+<meta name="twitter:domain" content="xupisco.net"/>
+
+	
+	
+
+
+
+
+<title>
+
+
+     Minhas extensões e configurações do VSCode 
+
+</title>
+<link rel="canonical" href="https://xupisco.net/post/minhas-extensoes-e-configuracoes-do-vscode/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lua.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="/css/reset.css?t=2020-08-04%2015%3a51%3a14.7617756%20-0300%20-03%20m%3d%2b0.150970701">
+    <link rel="stylesheet" href="/css/pygments.css?t=2020-08-04%2015%3a51%3a14.7617756%20-0300%20-03%20m%3d%2b0.150970701">
+    <link rel="stylesheet" href="/css/main.css?t=2020-08-04%2015%3a51%3a14.7617756%20-0300%20-03%20m%3d%2b0.150970701">
+    
+        <link rel="stylesheet" href="/css/customize.css?t=2020-08-04%2015%3a51%3a14.7617756%20-0300%20-03%20m%3d%2b0.150970701">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="//img/zen.png"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="pt-br">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+                <a href="/"><img class="avatar" src="//img/zen.png" srcset="https://xupisco.net/img/zen.png 1x"></a>
+            
+            <a href="/"><div class="name">xupisco</div></a>
+            
+              <h3 class="self-intro">// insert clever quote here</h3>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://xupisco.net/"><span>Blog</span></a>&nbsp;&nbsp;&nbsp;| </li>
+                    
+                        <li class="nav-flappybird-tutorial"><a href="https://xupisco.net/flappybird-tutorial/"><span>FlappyBird Tutorial</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/xupisco" target="_blank" rel="noopener"><img class="icon" src="/img/github.svg" alt="github" /></a>
+        
+
+        
+            <a href="//twitter.com/xupisco" target="_blank" rel="noopener"><img class="icon" src="/img/twitter.svg" alt="twitter" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:dev@xupisco.net"><img class="icon" src="/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="https://xupisco.net/index.xml"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <span class="tags">
+                
+                    <a href="/tags/vscode">#vscode</a>
+                
+                    <a href="/tags/tips">#tips</a>
+                
+                </span>
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Minhas extensões e configurações do VSCode
+
+</div>
+
+                    <div class="initials"><a href="https://xupisco.net"></a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Tue Feb 12 2019 19:29:30 -0300'>12/02/2019</div>
+                    
+                    
+		            <div class="reading-time"><div class="middot"></div>Uns 6 minutos de leitura</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                <p>Bom, acho que todo mundo já conhece o VSCode, certo? Mas em resumo, é um editor de texto &ldquo;<a href="https://github.com/Microsoft/vscode">open-source</a>&rdquo; criado pelo Microsoft e hoje em dia é o queridinho dos developers.</p>
+<blockquote>
+<p>Fun fact: O VSCode é atualmente o <a href="https://github.com/search?p=2&amp;q=stars%3A%3E1&amp;s=stars&amp;type=Repositories">11º projeto</a> com mais &ldquo;stars&rdquo; no GitHub.</p>
+</blockquote>
+<p>Confesso que gosto muito do editor que além de rápido é 100% customizável (temas e extensions), o que quero contar aqui é quais são as minhas extensões atuais, tema e configurações (settings), sem mais delongas:</p>
+<p><img src="/img/posts/vscode_screenshot.png" alt="Um screenshot bonitão do VSCode">
+<em>Um projeto em Python/Django&hellip; suporte total!</em></p>
+<p><img src="/img/posts/vscode_haxe-pixijs.png" alt="Outro screenshot do VSCode">
+<em>Agora bincando com Haxe e Heaps&hellip;debug ligado!</em></p>
+<h2 id="extensions">Extensions</h2>
+<p>Abaixo um quick-list de todas que tenho instaladas, em ordem alfabética, uma pequena descrição e link para o Marketplace&hellip;</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag">Auto Close Tag</a></strong><br>
+Fecha automaticamente as tags abertas, qq uma&hellip;basta fechar com p &lsquo;qqtag&gt;&rsquo; que ele coloca o &lt;/ qqtag&gt; depois.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Auto Rename Tag</a></strong><br>
+Renomeia automaticamente o final da tag editada.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets">Awesome Flutter Snippets</a></strong><br>
+Coleção de snippets e atalhos para as funções e classes mais utilizadas no Flutter. (ainda não conhece o <a href="https://flutter.io">Flutter</a>?)</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml">Better TOML</a></strong><br>
+Suporte e color-highlight para arquivos TOML.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer">Bracket Pair Colorizer</a></strong><br>
+Esse cara é ninja, além de colocar cada parênteses, chaves, etc&hellip; em uma cor diferente (correspondente) ele mostra onde está o começo e o fim do caracter! Recomendo muito.</p>
+<p><img src="https://github.com/CoenraadS/BracketPair/raw/master/images/example.png" alt=""></p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">C/C++</a></strong><br>
+Suporte para C/C++, color highlight, snippets, etc&hellip; (para quando estou brincando com C++)</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp">C#</a></strong><br>
+Suporte para C#, color highlight, snippets, etc&hellip; (para as aventuras em Unity)</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code">Dart</a></strong><br>
+Suporte para C#, color highlight, snippets, etc&hellip; (quando preciso do Flutter)</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger for Chrome</a></strong><br>
+Com ele é possível &ldquo;debugar&rdquo; apps em JS direto pelo VSCode, funciona que é uma beleza.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Unity.unity-debug">Debugger for Unity</a></strong><br>
+Como o nome diz, ele faz o &ldquo;attach&rdquo; do Unity com o VSCode para poder fazer o debug do C#.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Unity.unity-debug">Djaneiro</a></strong><br>
+Coleção de funcionalidades para Django / Python.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter">Flutter</a></strong><br>
+Suporte ao Framework Flutter, syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory">Git History</a></strong><br>
+Mostra o histórico do GIT para arquivos individuais ou repo, muito bom.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=lamartire.git-indicators">Git Indicators</a></strong><br>
+Mostra no &ldquo;gutter&rdquo; o estado das alterações atuais do arquivo comparado com seu último commit.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a></strong><br>
+Uma verdadeira lente de aumento para visualização do seu repositório.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools">Godot Tools</a></strong><br>
+Suporte ao GDScript, syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=HaxeFoundation.haxe-hl">HashLink Debugger</a></strong><br>
+Debug para o Hashlink compiler (Haxe).</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe">Haxe</a></strong><br>
+Suporte a linguagem Haxe, syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">highlight-matching-tag</a></strong><br>
+Este cara coloca um &ldquo;underline&rdquo; no fechamento da tag correspondente.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate">HTML Boilerplate</a></strong><br>
+Tem uns &ldquo;skeletons&rdquo; para novos arquivos em HTML.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview">Image Preview</a></strong><br>
+Mostra um thumb no gutter da imagem que está no src.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion">IntelliSense for CSS</a></strong><br>
+Melhora o intellisense de CSS de maneira geral para o projeto / workspace.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=pixelbyte-studios.pixelbyte-love2d">Love2D</a></strong><br>
+Suporte ao Framework Love2D, syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=keyring.Lua">Lua</a></strong><br>
+Suporte a linguagem LUA, syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus">Lua Plus</a></strong><br>
+Essa extension &ldquo;melhora&rdquo; um pouco a anterior&hellip; trazendo mais syntax-highlight além de um auto-complete para tabelas, etc.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf">Markdown PDF</a></strong><br>
+Salva documentos em markdown em PDF.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced">Markdown Preview Enhanced</a></strong><br>
+Cria uma janela side-by-side com o render do markdown em tempo real, este post foi escrito usando ele.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid">Markdown Preview Mermaid</a></strong><br>
+Suporte ao Mermaid JS no markdown, para criação de gráficos e charts.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid">Markdown Shortcuts</a></strong><br>
+Suporte a shortcuts simples no markdown como negrito, link, etc&hellip;</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">Material Icon Theme</a></strong><br>
+Muda os ícones dos arquivos e pastas.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme">Material Theme</a></strong><br>
+Tema.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme">One Dark Pro</a></strong><br>
+Tema.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=acidic9.p5js-snippets">p5js Snippets</a></strong><br>
+Suporte ao Framework P5js, syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">Path Intellisense</a></strong><br>
+Faz o auto-complete de pastas (folders) no código.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></strong><br>
+Rá.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=lkytal.quicktask">Quick Task</a></strong><br>
+Permite executar suas tasks de maneira rápida pela barra de status.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync">Settings Sync</a></strong><br>
+Faz o publish das suas settings e extencions em um Gist, muito útil se vc tem mais de um computador.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=slevesque.shader">Shader Language Support</a></strong><br>
+Suporte a linguagem OpenGL, syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=stevensona.shader-toy">Shader Toy</a></strong><br>
+Faz um previu do seu shader dentro do VSCode.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight">TODO Highlight</a></strong><br>
+Ele coloca uma corzinha nos &ldquo;todos&rdquo; que encontrar no seu código.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree">Todo Tree</a></strong><br>
+Coloca um ícone na action-bar que faz um overview de todos seus &ldquo;todos&rdquo; no workspace.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=YclepticStudios.unity-snippets">Unity Snippets</a></strong><br>
+Suporte ao Unity (C#), syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=Tobiah.unity-tools">Unity Tools</a></strong><br>
+Mesmo do anterior&hellip; só que diferente! :)</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=octref.vetur">Vetur</a></strong><br>
+Suporte ao Framework VUE.js, syntax-highlight e alguns snipplets.</p>
+<p><strong><a href="https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons">vscode-icons</a></strong><br>
+Muda os ícones dos arquivos e pastas</p>
+<h2 id="theme--settings">Theme / Settings</h2>
+<p>Bom, aqui o negócio é tenso&hellip; hahaah! Na íntegra o meu settings.json, muito &ldquo;fine-tune&rdquo; na customização do tema e alguns outros tweaks, se tiver dúvida com algum parametro, comenta ae&hellip;</p>
+<p><strong>source: settings.json</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+    <span style="color:#f92672">&#34;workbench.colorTheme&#34;</span>: <span style="color:#e6db74">&#34;Material Theme Darker High Contrast&#34;</span>,
+    <span style="color:#f92672">&#34;workbench.iconTheme&#34;</span>: <span style="color:#e6db74">&#34;material-icon-theme&#34;</span>,
+    <span style="color:#f92672">&#34;editor.fontFamily&#34;</span>: <span style="color:#e6db74">&#34;Fira Code, Office Code Pro, Hack, Consolas, &#39;Courier New&#39;, monospace&#34;</span>,
+    <span style="color:#f92672">&#34;editor.fontSize&#34;</span>: <span style="color:#ae81ff">14</span>,
+    <span style="color:#f92672">&#34;editor.lineHeight&#34;</span>: <span style="color:#ae81ff">20</span>,
+    <span style="color:#f92672">&#34;terminal.integrated.shell.windows&#34;</span>: <span style="color:#e6db74">&#34;C:\\WINDOWS\\System32\\cmd.exe&#34;</span>,
+    <span style="color:#f92672">&#34;window.zoomLevel&#34;</span>: <span style="color:#ae81ff">0</span>,
+    <span style="color:#f92672">&#34;editor.renderControlCharacters&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;editor.codeLens&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;markdown.preview.fontSize&#34;</span>: <span style="color:#ae81ff">15</span>,
+    <span style="color:#f92672">&#34;files.hotExit&#34;</span>: <span style="color:#e6db74">&#34;off&#34;</span>,
+    <span style="color:#f92672">&#34;files.exclude&#34;</span>: {
+        <span style="color:#f92672">&#34;**/*.pyc&#34;</span>: <span style="color:#66d9ef">true</span>
+    },
+    <span style="color:#f92672">&#34;extensions.autoUpdate&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;editor.autoIndent&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;markdown-preview-enhanced.previewTheme&#34;</span>: <span style="color:#e6db74">&#34;github-light.css&#34;</span>,
+    <span style="color:#f92672">&#34;sync.gist&#34;</span>: <span style="color:#e6db74">&#34;14ca04088a1796058ac47d48ca6df3db&#34;</span>,
+    <span style="color:#f92672">&#34;sync.autoDownload&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;sync.autoUpload&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;sync.forceDownload&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;sync.quietSync&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;sync.askGistName&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;window.restoreWindows&#34;</span>: <span style="color:#e6db74">&#34;none&#34;</span>,
+    <span style="color:#f92672">&#34;C_Cpp.intelliSenseEngine&#34;</span>: <span style="color:#e6db74">&#34;Default&#34;</span>,
+    <span style="color:#f92672">&#34;terminal.integrated.fontSize&#34;</span>: <span style="color:#ae81ff">12</span>,
+    <span style="color:#f92672">&#34;terminal.integrated.fontFamily&#34;</span>: <span style="color:#e6db74">&#34;Office Code Pro, Hack, Consolas, &#39;Courier New&#39;, monospace&#34;</span>,
+    <span style="color:#f92672">&#34;terminal.integrated.shellArgs.windows&#34;</span>: [
+        <span style="color:#e6db74">&#34;/K&#34;</span>,
+        <span style="color:#e6db74">&#34;&lt;CMDER_PATH&gt;\\vscode.bat&#34;</span>
+    ],
+    <span style="color:#f92672">&#34;terminal.integrated.cursorBlinking&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;editor.minimap.renderCharacters&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;editor.renderLineHighlight&#34;</span>: <span style="color:#e6db74">&#34;all&#34;</span>,
+    <span style="color:#f92672">&#34;editor.showFoldingControls&#34;</span>: <span style="color:#e6db74">&#34;always&#34;</span>,
+    <span style="color:#f92672">&#34;markdown-preview-enhanced.mermaidTheme&#34;</span>: <span style="color:#e6db74">&#34;dark&#34;</span>,
+    <span style="color:#f92672">&#34;workbench.colorCustomizations&#34;</span>: {
+        <span style="color:#f92672">&#34;panel.border&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;scrollbar.shadow&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;activityBar.border&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;tab.border&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;sideBar.border&#34;</span>: <span style="color:#e6db74">&#34;#0000&#34;</span>,
+        <span style="color:#f92672">&#34;sideBarSectionHeader.border&#34;</span>: <span style="color:#e6db74">&#34;#0000&#34;</span>,
+        <span style="color:#f92672">&#34;titleBar.border&#34;</span>: <span style="color:#e6db74">&#34;#0000&#34;</span>,
+        <span style="color:#f92672">&#34;contrastActiveBorder&#34;</span>: <span style="color:#e6db74">&#34;#0000&#34;</span>,
+        <span style="color:#f92672">&#34;contrastBorder&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;editorGroup.border&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;tab.activeBackground&#34;</span>: <span style="color:#e6db74">&#34;#212121&#34;</span>,
+        <span style="color:#f92672">&#34;tab.inactiveBackground&#34;</span>: <span style="color:#e6db74">&#34;#1a1a1a&#34;</span>,
+        <span style="color:#f92672">&#34;tab.unfocusedActiveBorder&#34;</span>: <span style="color:#e6db74">&#34;#0000&#34;</span>,
+        <span style="color:#f92672">&#34;editorGroupHeader.tabsBackground&#34;</span>: <span style="color:#e6db74">&#34;#1a1a1a&#34;</span>,
+        <span style="color:#f92672">&#34;editorHoverWidget.border&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;editorWhitespace.foreground&#34;</span>: <span style="color:#e6db74">&#34;#333&#34;</span>,
+        <span style="color:#f92672">&#34;dart.closingLabels&#34;</span>: <span style="color:#e6db74">&#34;#ffffff25&#34;</span>,
+        <span style="color:#f92672">&#34;activityBarBadge.background&#34;</span>: <span style="color:#e6db74">&#34;#f36192&#34;</span>,
+        <span style="color:#f92672">&#34;activityBar.foreground&#34;</span>: <span style="color:#e6db74">&#34;#fff&#34;</span>,
+        <span style="color:#f92672">&#34;activityBar.inactiveForeground&#34;</span>: <span style="color:#e6db74">&#34;#666&#34;</span>,
+        <span style="color:#f92672">&#34;list.activeSelectionForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;list.inactiveSelectionForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;list.highlightForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;editorSuggestWidget.highlightForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;textLink.foreground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;progressBar.background&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;pickerGroup.foreground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;tab.activeBorder&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;notificationLink.foreground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;notificationCenterHeader.foreground&#34;</span>: <span style="color:#e6db74">&#34;#fff&#34;</span>,
+        <span style="color:#f92672">&#34;notificationCenterHeader.background&#34;</span>: <span style="color:#e6db74">&#34;#222&#34;</span>,
+        <span style="color:#f92672">&#34;notifications.background&#34;</span>: <span style="color:#e6db74">&#34;#222222&#34;</span>,
+        <span style="color:#f92672">&#34;notifications.foreground&#34;</span>: <span style="color:#e6db74">&#34;#ccc&#34;</span>,
+        <span style="color:#f92672">&#34;notificationToast.border&#34;</span>: <span style="color:#e6db74">&#34;#0000&#34;</span>,
+        <span style="color:#f92672">&#34;notifications.border&#34;</span>: <span style="color:#e6db74">&#34;#0000&#34;</span>,
+        <span style="color:#f92672">&#34;editorWidget.border&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;editorRuler.foreground&#34;</span>: <span style="color:#e6db74">&#34;#303030&#34;</span>,
+        <span style="color:#f92672">&#34;badge.foreground&#34;</span>: <span style="color:#e6db74">&#34;#aaa&#34;</span>,
+        <span style="color:#f92672">&#34;editorSuggestWidget.border&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;editorSuggestWidget.background&#34;</span>: <span style="color:#e6db74">&#34;#161616&#34;</span>,
+        <span style="color:#f92672">&#34;editorSuggestWidget.foreground&#34;</span>: <span style="color:#e6db74">&#34;#eee&#34;</span>,
+        <span style="color:#f92672">&#34;editorSuggestWidget.selectedBackground&#34;</span>: <span style="color:#e6db74">&#34;#252525&#34;</span>,
+        <span style="color:#f92672">&#34;editorHoverWidget.background&#34;</span>: <span style="color:#e6db74">&#34;#161616&#34;</span>,
+        <span style="color:#f92672">&#34;editorWidget.background&#34;</span>: <span style="color:#e6db74">&#34;#161616&#34;</span>,
+        <span style="color:#f92672">&#34;editorLineNumber.activeForeground&#34;</span>: <span style="color:#e6db74">&#34;#cccccc&#34;</span>,
+        <span style="color:#f92672">&#34;editor.lineHighlightBackground&#34;</span>: <span style="color:#e6db74">&#34;#191919&#34;</span>,
+        <span style="color:#f92672">&#34;scrollbarSlider.background&#34;</span>: <span style="color:#e6db74">&#34;#02020241&#34;</span>,
+        <span style="color:#f92672">&#34;scrollbarSlider.activeBackground&#34;</span>: <span style="color:#e6db74">&#34;#FF408150&#34;</span>,
+        <span style="color:#f92672">&#34;scrollbarSlider.hoverBackground&#34;</span>: <span style="color:#e6db74">&#34;#151515&#34;</span>,
+        <span style="color:#f92672">&#34;statusBar.debuggingBackground&#34;</span>: <span style="color:#e6db74">&#34;#cc297b&#34;</span>,
+        <span style="color:#f92672">&#34;statusBar.debuggingBorder&#34;</span>: <span style="color:#e6db74">&#34;#222&#34;</span>,
+        <span style="color:#f92672">&#34;menu.background&#34;</span>: <span style="color:#e6db74">&#34;#181818&#34;</span>,
+        <span style="color:#f92672">&#34;menu.selectionBackground&#34;</span>: <span style="color:#e6db74">&#34;#cc297b&#34;</span>,
+        <span style="color:#f92672">&#34;menu.selectionForeground&#34;</span>: <span style="color:#e6db74">&#34;#fff&#34;</span>,
+        <span style="color:#f92672">&#34;debugToolBar.background&#34;</span>: <span style="color:#e6db74">&#34;#333&#34;</span>,
+        <span style="color:#f92672">&#34;statusBarItem.hoverBackground&#34;</span>: <span style="color:#e6db74">&#34;#151515&#34;</span>,
+        <span style="color:#f92672">&#34;statusBarItem.activeBackground&#34;</span>: <span style="color:#e6db74">&#34;#000&#34;</span>,
+        <span style="color:#f92672">&#34;statusBar.border&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;list.inactiveSelectionBackground&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+        <span style="color:#f92672">&#34;activityBarBadge.foreground&#34;</span>: <span style="color:#e6db74">&#34;#fff&#34;</span>,
+        <span style="color:#f92672">&#34;peekViewEditor.background&#34;</span>: <span style="color:#e6db74">&#34;#191919&#34;</span>,
+        <span style="color:#f92672">&#34;peekViewEditorGutter.background&#34;</span>: <span style="color:#e6db74">&#34;#191919&#34;</span>,
+        <span style="color:#f92672">&#34;peekViewResult.background&#34;</span>: <span style="color:#e6db74">&#34;#191919&#34;</span>,
+        <span style="color:#f92672">&#34;peekViewTitle.background&#34;</span>: <span style="color:#e6db74">&#34;#191919&#34;</span>,
+        <span style="color:#f92672">&#34;peekViewResult.selectionBackground&#34;</span>: <span style="color:#e6db74">&#34;#101010&#34;</span>,
+        <span style="color:#f92672">&#34;peekViewResult.selectionForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;peekView.border&#34;</span>: <span style="color:#e6db74">&#34;#0000&#34;</span>,
+        <span style="color:#f92672">&#34;breadcrumb.foreground&#34;</span>: <span style="color:#e6db74">&#34;#eee&#34;</span>,
+        <span style="color:#f92672">&#34;breadcrumb.focusForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;breadcrumb.activeSelectionForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;editorWidget.resizeBorder&#34;</span>: <span style="color:#e6db74">&#34;#cc297b&#34;</span>,
+        <span style="color:#f92672">&#34;settings.modifiedItemIndicator&#34;</span>: <span style="color:#e6db74">&#34;#85e485&#34;</span>,
+        <span style="color:#f92672">&#34;settings.headerForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;panelTitle.activeBorder&#34;</span>: <span style="color:#e6db74">&#34;#cc297b&#34;</span>,
+        <span style="color:#f92672">&#34;menubar.selectionForeground&#34;</span>: <span style="color:#e6db74">&#34;#fa97b8&#34;</span>,
+        <span style="color:#f92672">&#34;sideBarSectionHeader.foreground&#34;</span>: <span style="color:#e6db74">&#34;#eee&#34;</span>,
+        <span style="color:#f92672">&#34;editorGroupHeader.tabsBorder&#34;</span>: <span style="color:#e6db74">&#34;#fff0&#34;</span>,
+    },
+    <span style="color:#f92672">&#34;editor.tokenColorCustomizations&#34;</span>: {
+        <span style="color:#f92672">&#34;comments&#34;</span>: <span style="color:#e6db74">&#34;#ffffff30&#34;</span>
+    },
+    <span style="color:#f92672">&#34;window.menuBarVisibility&#34;</span>: <span style="color:#e6db74">&#34;toggle&#34;</span>,
+    <span style="color:#f92672">&#34;editor.renderWhitespace&#34;</span>: <span style="color:#e6db74">&#34;boundary&#34;</span>,
+    <span style="color:#f92672">&#34;workbench.activityBar.visible&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;editor.multiCursorModifier&#34;</span>: <span style="color:#e6db74">&#34;ctrlCmd&#34;</span>,
+    <span style="color:#f92672">&#34;markdown-preview-enhanced.revealjsTheme&#34;</span>: <span style="color:#e6db74">&#34;black.css&#34;</span>,
+    <span style="color:#f92672">&#34;editor.minimap.enabled&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;editor.hideCursorInOverviewRuler&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;editor.rulers&#34;</span>: [
+        <span style="color:#ae81ff">80</span>,
+        <span style="color:#ae81ff">90</span>
+    ],
+    <span style="color:#f92672">&#34;git.enableSmartCommit&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;window.title&#34;</span>: <span style="color:#e6db74">&#34;${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}&#34;</span>,
+    <span style="color:#f92672">&#34;emmet.includeLanguages&#34;</span>: {
+        <span style="color:#f92672">&#34;django-template&#34;</span>: <span style="color:#e6db74">&#34;html&#34;</span>
+    },
+    <span style="color:#f92672">&#34;workbench.startupEditor&#34;</span>: <span style="color:#e6db74">&#34;none&#34;</span>,
+    <span style="color:#f92672">&#34;gitlens.advanced.messages&#34;</span>: {
+        <span style="color:#f92672">&#34;suppressCommitHasNoPreviousCommitWarning&#34;</span>: <span style="color:#66d9ef">false</span>,
+        <span style="color:#f92672">&#34;suppressCommitNotFoundWarning&#34;</span>: <span style="color:#66d9ef">false</span>,
+        <span style="color:#f92672">&#34;suppressFileNotUnderSourceControlWarning&#34;</span>: <span style="color:#66d9ef">false</span>,
+        <span style="color:#f92672">&#34;suppressGitVersionWarning&#34;</span>: <span style="color:#66d9ef">false</span>,
+        <span style="color:#f92672">&#34;suppressLineUncommittedWarning&#34;</span>: <span style="color:#66d9ef">false</span>,
+        <span style="color:#f92672">&#34;suppressNoRepositoryWarning&#34;</span>: <span style="color:#66d9ef">false</span>,
+        <span style="color:#f92672">&#34;suppressResultsExplorerNotice&#34;</span>: <span style="color:#66d9ef">false</span>,
+        <span style="color:#f92672">&#34;suppressShowKeyBindingsNotice&#34;</span>: <span style="color:#66d9ef">true</span>,
+        <span style="color:#f92672">&#34;suppressUpdateNotice&#34;</span>: <span style="color:#66d9ef">false</span>,
+        <span style="color:#f92672">&#34;suppressWelcomeNotice&#34;</span>: <span style="color:#66d9ef">true</span>
+    },
+    <span style="color:#f92672">&#34;gitlens.codeLens.scopes&#34;</span>: [
+        <span style="color:#e6db74">&#34;document&#34;</span>,
+        <span style="color:#e6db74">&#34;containers&#34;</span>
+    ],
+    <span style="color:#f92672">&#34;gitlens.currentLine.format&#34;</span>: <span style="color:#e6db74">&#34;${authorAgo}&#34;</span>,
+    <span style="color:#f92672">&#34;[dart]&#34;</span>: {
+        <span style="color:#f92672">&#34;editor.tabSize&#34;</span>: <span style="color:#ae81ff">2</span>,
+        <span style="color:#f92672">&#34;editor.insertSpaces&#34;</span>: <span style="color:#66d9ef">true</span>
+    },
+    <span style="color:#f92672">&#34;gitlens.keymap&#34;</span>: <span style="color:#e6db74">&#34;chorded&#34;</span>,
+    <span style="color:#f92672">&#34;dart.closingLabels&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;git.autofetch&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;sync.removeExtensions&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;sync.syncExtensions&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;python.linting.pylintArgs&#34;</span>: [
+        <span style="color:#e6db74">&#34;--load-plugins=pylint_django&#34;</span>
+    ],
+    <span style="color:#f92672">&#34;auto-close-tag.activationOnLanguage&#34;</span>: [
+        <span style="color:#e6db74">&#34;xml&#34;</span>,
+        <span style="color:#e6db74">&#34;php&#34;</span>,
+        <span style="color:#e6db74">&#34;blade&#34;</span>,
+        <span style="color:#e6db74">&#34;ejs&#34;</span>,
+        <span style="color:#e6db74">&#34;jinja&#34;</span>,
+        <span style="color:#e6db74">&#34;javascript&#34;</span>,
+        <span style="color:#e6db74">&#34;javascriptreact&#34;</span>,
+        <span style="color:#e6db74">&#34;typescript&#34;</span>,
+        <span style="color:#e6db74">&#34;typescriptreact&#34;</span>,
+        <span style="color:#e6db74">&#34;plaintext&#34;</span>,
+        <span style="color:#e6db74">&#34;markdown&#34;</span>,
+        <span style="color:#e6db74">&#34;vue&#34;</span>,
+        <span style="color:#e6db74">&#34;liquid&#34;</span>,
+        <span style="color:#e6db74">&#34;erb&#34;</span>,
+        <span style="color:#e6db74">&#34;lang-cfml&#34;</span>,
+        <span style="color:#e6db74">&#34;cfml&#34;</span>,
+        <span style="color:#e6db74">&#34;HTML (Eex)&#34;</span>,
+        <span style="color:#e6db74">&#34;django-html&#34;</span>
+    ],
+    <span style="color:#f92672">&#34;editor.occurrencesHighlight&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;editor.fontLigatures&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;editor.scrollBeyondLastLine&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;editor.smoothScrolling&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;editor.detectIndentation&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;editor.acceptSuggestionOnCommitCharacter&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;GodotTools.editorPath&#34;</span>: <span style="color:#e6db74">&#34;&lt;GODOT_PATH&gt;\\Godot_v3.0.6-stable_win64.exe&#34;</span>,
+    <span style="color:#f92672">&#34;breadcrumbs.enabled&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;window.titleBarStyle&#34;</span>: <span style="color:#e6db74">&#34;custom&#34;</span>,
+    <span style="color:#f92672">&#34;workbench.editor.enablePreviewFromQuickOpen&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;workbench.editor.enablePreview&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;todo-tree.defaultHighlight&#34;</span>: {
+        <span style="color:#f92672">&#34;foreground&#34;</span>: <span style="color:#e6db74">&#34;green&#34;</span>,
+        <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;none&#34;</span>
+    },
+    <span style="color:#f92672">&#34;todo-tree.customHighlight&#34;</span>: {
+        <span style="color:#f92672">&#34;TODO&#34;</span>: {},
+        <span style="color:#f92672">&#34;FIXME&#34;</span>: {},
+        <span style="color:#f92672">&#34;FIX&#34;</span>: {}
+    },
+    <span style="color:#f92672">&#34;shader-toy.reloadOnChangeEditor&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;pixelbyte.love2d.path&#34;</span>: <span style="color:#e6db74">&#34;&lt;LOVE2D_PATH&gt;\\love.exe&#34;</span>,
+    <span style="color:#f92672">&#34;editor.tabCompletion&#34;</span>: <span style="color:#e6db74">&#34;on&#34;</span>,
+    <span style="color:#f92672">&#34;[python]&#34;</span>: {},
+    <span style="color:#f92672">&#34;gitlens.views.repositories.files.layout&#34;</span>: <span style="color:#e6db74">&#34;tree&#34;</span>,
+    <span style="color:#f92672">&#34;gitlens.views.fileHistory.enabled&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;gitlens.views.lineHistory.enabled&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;material-icon-theme.folders.color&#34;</span>: <span style="color:#e6db74">&#34;#90a4ae&#34;</span>,
+    <span style="color:#f92672">&#34;breadcrumbs.filePath&#34;</span>: <span style="color:#e6db74">&#34;off&#34;</span>,
+    <span style="color:#f92672">&#34;materialTheme.accent&#34;</span>: <span style="color:#e6db74">&#34;Pink&#34;</span>,
+    <span style="color:#f92672">&#34;files.trimTrailingWhitespace&#34;</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#f92672">&#34;workbench.statusBar.feedback.visible&#34;</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#f92672">&#34;liveshare.showInStatusBar&#34;</span>: <span style="color:#e6db74">&#34;whileCollaborating&#34;</span>,
+}
+</code></pre></div><hr>
+<p>E ae? Como está o seu VSCode?<br>
+Hugs&hellip;</p>
+
+                <br>
+		<p><a href="/">&lt;&lt; Voltar para os posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'xupisco';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+            </div>
+            <br />
+            <div class="related">
+                
+
+<hr />
+<h3>Outros</h3>
+<ul>
+	
+	<li><a href="/post/como-compartilhar-sua-home-do-android/">Como compartilhar sua Home do Android</a>                 <span class="tags">
+        
+            <a href="/tags/tips">#tips</a>
+        
+            <a href="/tags/tutorial">#tutorial</a>
+        
+        </span></li>
+	
+	<li><a href="/post/usando-o-vs-code-com-hugo/">Usando o VS Code com Hugo</a>                 <span class="tags">
+        
+            <a href="/tags/tips">#tips</a>
+        
+        </span></li>
+	
+	<li><a href="/post/python-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem/">Python - Remover valores duplicados de uma lista mantendo a ordem</a>                 <span class="tags">
+        
+            <a href="/tags/python">#python</a>
+        
+            <a href="/tags/tips">#tips</a>
+        
+        </span></li>
+	
+</ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8395201-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+</body>
+</html>
+

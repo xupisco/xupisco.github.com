@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on @xupisco - Let&#39;s build stuff</title>
+    <link>https://xupisco.github.io/tags/tips/</link>
+    <description>Recent content in tips on @xupisco - Let&#39;s build stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 13 Feb 2019 18:29:55 -0200</lastBuildDate>
+    
+	<atom:link href="https://xupisco.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Godot engine 3.1 theme tweaks</title>
+      <link>https://xupisco.github.io/posts/godot-31-theme-tweaks/</link>
+      <pubDate>Wed, 13 Feb 2019 18:29:55 -0200</pubDate>
+      
+      <guid>https://xupisco.github.io/posts/godot-31-theme-tweaks/</guid>
+      <description>Então, como já devem ter percebido eu não curto nada &amp;ldquo;default&amp;rdquo; e acabo sempre fazendo alguma customização dos apps que uso, seja de interface, cores, fonts, etc&amp;hellip; Muito difícil me agradar &amp;ldquo;out-of-the-box&amp;rdquo;.
+Por isso estou compartilhando abaixo o que fiz de alterações no Godot Engine (versão 3.1) para ficar lindão&amp;hellip; XD - Veja só!
+ Você sabia que pode clicar para ver maior?! Oo
+Da hora, o que vc fez? Segue abaixo o que foi alterado&amp;hellip; na verdade, nem é muita coisa:</description>
+    </item>
+    
+    <item>
+      <title>Minhas extensões e configurações do VSCode</title>
+      <link>https://xupisco.github.io/posts/minhas-extensoes-e-configuracoes-do-vscode/</link>
+      <pubDate>Tue, 12 Feb 2019 19:29:30 -0300</pubDate>
+      
+      <guid>https://xupisco.github.io/posts/minhas-extensoes-e-configuracoes-do-vscode/</guid>
+      <description>Bom, acho que todo mundo já conhece o VSCode, certo? Mas em resumo, é um editor de texto &amp;ldquo;open-source&amp;rdquo; criado pelo Microsoft e hoje em dia é o queridinho dos developers.
+ Fun fact: O VSCode é atualmente o 11º projeto com mais &amp;ldquo;stars&amp;rdquo; no GitHub.
+ Confesso que gosto muito do editor que além de rápido é 100% customizável (temas e extensions), o que quero contar aqui é quais são as minhas extensões atuais, tema e configurações (settings), sem mais delongas:</description>
+    </item>
+    
+    <item>
+      <title>Como compartilhar sua Home do Android</title>
+      <link>https://xupisco.github.io/posts/como-compartilhar-sua-home-do-android/</link>
+      <pubDate>Tue, 04 Jul 2017 10:59:06 -0300</pubDate>
+      
+      <guid>https://xupisco.github.io/posts/como-compartilhar-sua-home-do-android/</guid>
+      <description>Modificar o Android é uma das funcionalidades preferidas de que adota o robozinho ao invés da maçã já que ele possibilita customizar praticamente tudo, tornando o seu celular realmente único.
+Outra coisa comum é querer mostrar para os outros, o que depois sempre vem as perguntas do tipo:
+ Qual aquele widget? Me passa o wallpaper? Quais ícones vc está usando?  Entre outras, e por isso nasceu o #homescreens, uma maneira rápida e bonita de compartilhar suas telas e criações.</description>
+    </item>
+    
+    <item>
+      <title>Usando o VS Code com Hugo</title>
+      <link>https://xupisco.github.io/posts/usando-o-vscode/</link>
+      <pubDate>Fri, 23 Jun 2017 13:49:27 -0300</pubDate>
+      
+      <guid>https://xupisco.github.io/posts/usando-o-vscode/</guid>
+      <description>O Hugo é um excelente gerador de sites estáticos escrito em Go, com uma documentação bem completa e vários temas disponíveis (este blog utiliza o tema &amp;ldquo;cocoa&amp;quot;, com alguma customização feita por mim).
+Não quero entrar muito em detalhes sobre como instalar e configurar o Hugo, isso pode ser encontrado no &amp;ldquo;Getting started&amp;rdquo; do site deles, o objetivo aqui é apenas falar sobre como deixar o VS Code mais esperto para ele.</description>
+    </item>
+    
+    <item>
+      <title>Python - Remover valores duplicados de uma lista mantendo a ordem</title>
+      <link>https://xupisco.github.io/posts/como-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem-em-python/</link>
+      <pubDate>Fri, 23 Jun 2017 11:48:24 -0300</pubDate>
+      
+      <guid>https://xupisco.github.io/posts/como-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem-em-python/</guid>
+      <description>No python, vc pode usar o set() para remover valores duplicados de uma lista, mas ele troca a ordem dos valores dentro dela, para mantê-los, é simples, veja o exemplo abaixo:
+lista = [&amp;#39;a&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;] sorted(set(lista), key=lambda x: lista.index(x)) #magic #output &amp;gt; [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;c&amp;#39;] Simples assim&amp;hellip;
+[]&amp;lsquo;s</description>
+    </item>
+    
+  </channel>
+</rss>

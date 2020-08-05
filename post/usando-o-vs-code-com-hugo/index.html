@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="xupisco">
+<meta name="description" content="Dicas para aproveitar melhor o VS Code no seu Blog com Hugo.">
+
+
+<meta property="og:title" content="Usando o VS Code com Hugo" />
+<meta property="og:description" content="Dicas para aproveitar melhor o VS Code no seu Blog com Hugo." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://xupisco.net/post/usando-o-vs-code-com-hugo/" />
+
+	<meta property="og:image" content="https://4.bp.blogspot.com/-0eh0BkFFjzI/WKtz8vnHZvI/AAAAAAAAS3M/V3F5ueEKxS8RdSP8HHz4AVvQ_2DKW8lIgCLcB/s1600/opengraph-blog.png" />
+
+
+
+<meta property="og:updated_time" content="2017-06-23 13:49:27 -0300 -03"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="article:author" content="https://www.facebook.com/xupisco" />
+
+<meta property="article:publisher" content="https://www.facebook.com/xupisco" />
+
+<meta property="article:published_time" content="2017-06-23 13:49:27 -0300 -03" />
+
+<meta property="article:modified_time" content="2017-06-23 13:49:27 -0300 -03" />
+<meta property="article:section" content="post" />
+
+	<meta property="article:tag" content="tips" />
+
+
+
+<meta property="fb:admins" content="830831574" />
+
+
+<meta itemprop="name" content="Usando o VS Code com Hugo">
+<meta itemprop="description" content="Dicas para aproveitar melhor o VS Code no seu Blog com Hugo.">
+
+
+
+	<meta itemprop="image" content="https://4.bp.blogspot.com/-0eh0BkFFjzI/WKtz8vnHZvI/AAAAAAAAS3M/V3F5ueEKxS8RdSP8HHz4AVvQ_2DKW8lIgCLcB/s1600/opengraph-blog.png">
+
+
+
+<meta itemprop="keywords" content="chrome,corona,extension,gamedev,godot,lua,python,tips,tutorial,vscode," />
+
+
+<meta itemprop="wordCount" content="306">
+
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:image:src" content="https://4.bp.blogspot.com/-0eh0BkFFjzI/WKtz8vnHZvI/AAAAAAAAS3M/V3F5ueEKxS8RdSP8HHz4AVvQ_2DKW8lIgCLcB/s1600/opengraph-blog.png"/>
+
+
+
+<meta name="twitter:title" content="Usando o VS Code com Hugo"/>
+<meta name="twitter:description" content="Dicas para aproveitar melhor o VS Code no seu Blog com Hugo."/>
+<meta name="twitter:site" content="@xupisco"/>
+<meta name="twitter:domain" content="xupisco.net"/>
+
+	
+	
+
+
+
+
+<title>
+
+
+     Usando o VS Code com Hugo 
+
+</title>
+<link rel="canonical" href="https://xupisco.net/post/usando-o-vs-code-com-hugo/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lua.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="/css/reset.css?t=2020-08-04%2015%3a51%3a14.751473%20-0300%20-03%20m%3d%2b0.140668101">
+    <link rel="stylesheet" href="/css/pygments.css?t=2020-08-04%2015%3a51%3a14.751473%20-0300%20-03%20m%3d%2b0.140668101">
+    <link rel="stylesheet" href="/css/main.css?t=2020-08-04%2015%3a51%3a14.751473%20-0300%20-03%20m%3d%2b0.140668101">
+    
+        <link rel="stylesheet" href="/css/customize.css?t=2020-08-04%2015%3a51%3a14.751473%20-0300%20-03%20m%3d%2b0.140668101">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="//img/zen.png"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="pt-br">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+                <a href="/"><img class="avatar" src="//img/zen.png" srcset="https://xupisco.net/img/zen.png 1x"></a>
+            
+            <a href="/"><div class="name">xupisco</div></a>
+            
+              <h3 class="self-intro">// insert clever quote here</h3>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://xupisco.net/"><span>Blog</span></a>&nbsp;&nbsp;&nbsp;| </li>
+                    
+                        <li class="nav-flappybird-tutorial"><a href="https://xupisco.net/flappybird-tutorial/"><span>FlappyBird Tutorial</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/xupisco" target="_blank" rel="noopener"><img class="icon" src="/img/github.svg" alt="github" /></a>
+        
+
+        
+            <a href="//twitter.com/xupisco" target="_blank" rel="noopener"><img class="icon" src="/img/twitter.svg" alt="twitter" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:dev@xupisco.net"><img class="icon" src="/img/email.svg" alt="email" /></a>
+        
+
+        
+            <a href="https://xupisco.net/index.xml"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <span class="tags">
+                
+                    <a href="/tags/tips">#tips</a>
+                
+                </span>
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Usando o VS Code com Hugo
+
+</div>
+
+                    <div class="initials"><a href="https://xupisco.net"></a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Fri Jun 23 2017 13:49:27 -03'>23/06/2017</div>
+                    
+                    
+		            <div class="reading-time"><div class="middot"></div>Uns 2 minutos de leitura</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                <p>O <a href="https://gohugo.io/">Hugo</a> é um excelente gerador de sites estáticos escrito em <a href="https://golang.org/">Go</a>, com uma documentação bem completa e vários <a href="https://themes.gohugo.io/">temas</a> disponíveis (este blog utiliza o tema &ldquo;<strong>cocoa</strong>&quot;, com alguma customização feita por mim).</p>
+<p>Não quero entrar muito em detalhes sobre como instalar e configurar o Hugo, isso pode ser encontrado no <a href="https://gohugo.io/overview/introduction/">&ldquo;Getting started&rdquo;</a> do site deles, o objetivo aqui é apenas falar sobre como deixar o VS Code mais esperto para ele.</p>
+<p><img src="https://4.bp.blogspot.com/-0eh0BkFFjzI/WKtz8vnHZvI/AAAAAAAAS3M/V3F5ueEKxS8RdSP8HHz4AVvQ_2DKW8lIgCLcB/s1600/opengraph-blog.png" alt="VS Code">
+<em>VS Code é multi-plataforma, baixe agora</em></p>
+<h3 id="como-é-o-processo">Como é o processo?</h3>
+<p>O Hugo funciona com um binário, disponível para todas as plataformas. É com ele que vc inicia seu blog, posts e compila os arquivos para .html. Basicamente, o workflow é o seguinte:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$hugo new site meu_novo_blog
+$hugo new post/meu-primeiro-post.md <span style="color:#75715e"># sim, usamos markdown \o/</span>
+$hugo serve --buildDrafts <span style="color:#75715e"># inicia o servidor local</span>
+</code></pre></div><p>Pronto, só acessar <code>http://localhost:1313</code> para ver o seu novo blog. Sweet!</p>
+<p>Uma grande vantagem de usar sites estáticos é poder hospedá-lo em qualquer lugar. Este que vc está lendo agora fica no <a href="https://github.com">github</a>, na faixa.</p>
+<h3 id="melhorando-o-vs-code">Melhorando o VS Code</h3>
+<p>Até que enfim, bom, dois plugin que uso para editar e gerenciar este blog pelo VS Code, são eles:</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">Markdown All in One</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=akmittal.hugofy">Hugofy</a></li>
+</ul>
+<p>Vamos explicá-los:</p>
+<p><strong>Markdown All in One</strong><br>
+Esse cara facilita sua edição e visualização de arquivos markdown (com extenção .md) com as seguintes funcionalidades:</p>
+<ul>
+<li>Melhor Syntax Highlight (corzinhas)</li>
+<li>Live preview (side-by-side)</li>
+<li>Atalhos para <strong>negrito</strong>, links, imagens, etc&hellip;</li>
+</ul>
+<p>Ele até faz mais coisa, mas é isso que eu uso.</p>
+<p><strong>Hugofy:</strong><br>
+Este possui alguns atalhos para comandos do CLI (command line) do Hugo, para iniciar, basta digitar <code>shift + ctrl + p</code> no VS Code e digitar &ldquo;hugo&rdquo;, alguns deles são:</p>
+<ul>
+<li>Start server</li>
+<li>Stop server</li>
+<li>New site</li>
+<li>New post</li>
+</ul>
+<p>Bom, é isso&hellip; se precisar de alguma ajuda pra deixar sei site com Hugo &ldquo;em pé&rdquo;, comenta ae que tento te ajudar!</p>
+<p>[]&lsquo;s</p>
+
+                <br>
+		<p><a href="/">&lt;&lt; Voltar para os posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'xupisco';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+            </div>
+            <br />
+            <div class="related">
+                
+
+<hr />
+<h3>Outros</h3>
+<ul>
+	
+	<li><a href="/post/python-remover-valores-duplicados-de-uma-lista-mantendo-a-ordem/">Python - Remover valores duplicados de uma lista mantendo a ordem</a>                 <span class="tags">
+        
+            <a href="/tags/python">#python</a>
+        
+            <a href="/tags/tips">#tips</a>
+        
+        </span></li>
+	
+</ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8395201-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+</body>
+</html>
+
