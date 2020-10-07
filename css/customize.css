@@ -94,10 +94,7 @@ section.main .content .markdown img {
 
 section.main .content .markdown em {
     font-style: italic;
-    color: #8e8e8e;
-    font-size: 13px;
-    margin-top: -15px;
-    display: flex;
+    color: #333;
 }
 
 section.main .content .markdown code { 

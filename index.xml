@@ -5,10 +5,20 @@
     <link>https://xupisco.github.io/</link>
     <description>Recent content on @xupisco - Let&#39;s build stuff</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Feb 2019 18:29:55 -0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2020 20:19:41 -0300</lastBuildDate>
     
 	<atom:link href="https://xupisco.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dica: Crie QR Codes dinâmicos</title>
+      <link>https://xupisco.github.io/post/crie-qr-codes-dinamicos/</link>
+      <pubDate>Wed, 07 Oct 2020 20:19:41 -0300</pubDate>
+      
+      <guid>https://xupisco.github.io/post/crie-qr-codes-dinamicos/</guid>
+      <description>Os QR Codes voltaram com tudo, estão nos cardápios digitais, nos anúncios de elevador, nos comerciais de TV e até mesmo nas lives do Youtube. Faça sua doação! Compre agora! Baixe nosso App! Mas e ai? Doaram? Compraram? Baixaram?
+Até então, não era possível saber quando alguém &amp;ldquo;lia&amp;rdquo; o seu QR Code. Muito menos levar o seu cliente para a loja certa na hora de baixar o seu App novinho. Será que é um iPhone ou um Android?</description>
+    </item>
     
     <item>
       <title>Godot engine 3.1 theme tweaks</title>
