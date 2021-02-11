@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lua on @xupisco - Let&#39;s build stuff</title>
-    <link>https://xupisco.github.io/tags/lua/</link>
+    <link>https://xupisco.net/tags/lua/</link>
     <description>Recent content in lua on @xupisco - Let&#39;s build stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 26 Jun 2017 12:28:31 -0300</lastBuildDate>
     
-	<atom:link href="https://xupisco.github.io/tags/lua/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xupisco.net/tags/lua/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Flappybird Clone usando CoronaSDK</title>
-      <link>https://xupisco.github.io/post/flappybird-clone-usando-coronasdk/</link>
+      <link>https://xupisco.net/post/flappybird-clone-usando-coronasdk/</link>
       <pubDate>Mon, 26 Jun 2017 12:28:31 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/post/flappybird-clone-usando-coronasdk/</guid>
+      <guid>https://xupisco.net/post/flappybird-clone-usando-coronasdk/</guid>
       <description>Olás pessoas que não conheço, como estão?
 Vou começar uma série de tutoriais sobre como criar um clone de FlappyBird usando o CoronaSDK, que é em Lua.
 Update: Já estão disponíveis os 2 primeiros posts&amp;hellip; comece agora!

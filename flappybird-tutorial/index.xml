@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flappybird-tutorials on @xupisco - Let&#39;s build stuff</title>
-    <link>https://xupisco.github.io/flappybird-tutorial/</link>
+    <link>https://xupisco.net/flappybird-tutorial/</link>
     <description>Recent content in Flappybird-tutorials on @xupisco - Let&#39;s build stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Jun 2017 10:32:20 -0300</lastBuildDate>
     
-	<atom:link href="https://xupisco.github.io/flappybird-tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xupisco.net/flappybird-tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>02 - Entendendo a estrutura do projeto</title>
-      <link>https://xupisco.github.io/flappybird-tutorial/02_understanding-the-skeleton/</link>
+      <link>https://xupisco.net/flappybird-tutorial/02_understanding-the-skeleton/</link>
       <pubDate>Tue, 27 Jun 2017 10:32:20 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/flappybird-tutorial/02_understanding-the-skeleton/</guid>
+      <guid>https://xupisco.net/flappybird-tutorial/02_understanding-the-skeleton/</guid>
       <description>Hello again&amp;hellip; agora que você já instalou o CoronaSDK e baixou o esqueleto do projeto, podemos começar a colocar a mão na massa e dar vida ao nosso game (clone). Por enquanto temos apenas uma tela preta, parece ruim, mas já está funcionando e com todas as configurações necessárias para continuarmos o desenvolvimento.
 Antes de baixar os assets e colocar nosso background, vou explicar como o CoronaSDK funciona e quais configurações estão nos arquivos iniciais.</description>
     </item>
     
     <item>
       <title>01 - Hello World</title>
-      <link>https://xupisco.github.io/flappybird-tutorial/01_hello-world/</link>
+      <link>https://xupisco.net/flappybird-tutorial/01_hello-world/</link>
       <pubDate>Tue, 27 Jun 2017 10:17:56 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/flappybird-tutorial/01_hello-world/</guid>
+      <guid>https://xupisco.net/flappybird-tutorial/01_hello-world/</guid>
       <description>Olás pessoas, prontos para começarem no mundo da programação e desenvolvimento de jogos? Ainda não? Então pode ir assistir qualquer porcaria no Youtube.
 Vou dividir este tutorial em algumas partes, tentando ser o mais didático possível, além de explicar o porque dos caminhos escolhidos foi seguido. A ideia não é você &amp;ldquo;copiar&amp;rdquo; o código, mas sim entender como tudo foi feito, só assim poderá usar este aprendizado nos seus próprios projetos.</description>
     </item>

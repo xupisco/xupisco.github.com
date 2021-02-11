@@ -2,119 +2,119 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on @xupisco - Let&#39;s build stuff</title>
-    <link>https://xupisco.github.io/tags/</link>
+    <link>https://xupisco.net/tags/</link>
     <description>Recent content in Tags on @xupisco - Let&#39;s build stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 07 Oct 2020 20:19:41 -0300</lastBuildDate>
     
-	<atom:link href="https://xupisco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xupisco.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ad</title>
-      <link>https://xupisco.github.io/tags/ad/</link>
+      <link>https://xupisco.net/tags/ad/</link>
       <pubDate>Wed, 07 Oct 2020 20:19:41 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/ad/</guid>
+      <guid>https://xupisco.net/tags/ad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dev</title>
-      <link>https://xupisco.github.io/tags/dev/</link>
+      <link>https://xupisco.net/tags/dev/</link>
       <pubDate>Wed, 07 Oct 2020 20:19:41 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/dev/</guid>
+      <guid>https://xupisco.net/tags/dev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tips</title>
-      <link>https://xupisco.github.io/tags/tips/</link>
+      <link>https://xupisco.net/tags/tips/</link>
       <pubDate>Wed, 07 Oct 2020 20:19:41 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/tips/</guid>
+      <guid>https://xupisco.net/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gamedev</title>
-      <link>https://xupisco.github.io/tags/gamedev/</link>
+      <link>https://xupisco.net/tags/gamedev/</link>
       <pubDate>Wed, 13 Feb 2019 18:29:55 -0200</pubDate>
       
-      <guid>https://xupisco.github.io/tags/gamedev/</guid>
+      <guid>https://xupisco.net/tags/gamedev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>godot</title>
-      <link>https://xupisco.github.io/tags/godot/</link>
+      <link>https://xupisco.net/tags/godot/</link>
       <pubDate>Wed, 13 Feb 2019 18:29:55 -0200</pubDate>
       
-      <guid>https://xupisco.github.io/tags/godot/</guid>
+      <guid>https://xupisco.net/tags/godot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vscode</title>
-      <link>https://xupisco.github.io/tags/vscode/</link>
+      <link>https://xupisco.net/tags/vscode/</link>
       <pubDate>Tue, 12 Feb 2019 19:29:30 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/vscode/</guid>
+      <guid>https://xupisco.net/tags/vscode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chrome</title>
-      <link>https://xupisco.github.io/tags/chrome/</link>
+      <link>https://xupisco.net/tags/chrome/</link>
       <pubDate>Mon, 14 May 2018 14:23:27 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/chrome/</guid>
+      <guid>https://xupisco.net/tags/chrome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>extension</title>
-      <link>https://xupisco.github.io/tags/extension/</link>
+      <link>https://xupisco.net/tags/extension/</link>
       <pubDate>Mon, 14 May 2018 14:23:27 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/extension/</guid>
+      <guid>https://xupisco.net/tags/extension/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tutorial</title>
-      <link>https://xupisco.github.io/tags/tutorial/</link>
+      <link>https://xupisco.net/tags/tutorial/</link>
       <pubDate>Tue, 04 Jul 2017 10:59:06 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/tutorial/</guid>
+      <guid>https://xupisco.net/tags/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>corona</title>
-      <link>https://xupisco.github.io/tags/corona/</link>
+      <link>https://xupisco.net/tags/corona/</link>
       <pubDate>Tue, 27 Jun 2017 10:32:20 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/corona/</guid>
+      <guid>https://xupisco.net/tags/corona/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lua</title>
-      <link>https://xupisco.github.io/tags/lua/</link>
+      <link>https://xupisco.net/tags/lua/</link>
       <pubDate>Mon, 26 Jun 2017 12:28:31 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/lua/</guid>
+      <guid>https://xupisco.net/tags/lua/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://xupisco.github.io/tags/python/</link>
+      <link>https://xupisco.net/tags/python/</link>
       <pubDate>Fri, 23 Jun 2017 11:48:24 -0300</pubDate>
       
-      <guid>https://xupisco.github.io/tags/python/</guid>
+      <guid>https://xupisco.net/tags/python/</guid>
       <description></description>
     </item>
     
